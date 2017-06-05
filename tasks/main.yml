@@ -7,5 +7,6 @@
     mode: 0755
     owner: root
     group: root
+    validate_certs: "{{minikube_validate_certs}}"
   become: true
 
